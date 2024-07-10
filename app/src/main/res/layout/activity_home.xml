@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    android:id="@+id/layout"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="150dp"
+        android:text="NAYAN"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:textColor="#000"
+            android:text="1. Welcome to NAYAN, an application designed to assist blind individuals. Please follow the instructions carefully to make the most of your experience.\n\n2. Left Swipe (Currency Summing): To sum the currency notes, swipe left on the screen with your finger.\n\n3. Right Swipe (Text-to-Speech Conversion): To convert text to speech, swipe right on the screen with your finger. This action will activate the text-to-speech feature.\n\n4. Up Swipe (Currency Note Identification): To identify currency notes, swipe up on the screen with your finger. This action will activate the currency note identification feature.\n"/>
+
+    </ScrollView>
+
+</LinearLayout>
